@@ -14,7 +14,7 @@ class Settings:
 
         #bullet settings
         self.bullet_speed = 1.0
-        self.bullet_width = 900
+        self.bullet_width = 5
         self.bullet_height = 15
         self.bullet_color = (20, 20, 20)
         self.bullets_allowed = 3
@@ -24,3 +24,6 @@ class Settings:
         self.fleet_drop_speed = 15
         # fleet_direction of 1 represents right; -1 represents left.
         self.fleet_direction = 1
+
+        # Debug available, true or false
+        self.alien_debug = True
